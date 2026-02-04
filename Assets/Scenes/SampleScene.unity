@@ -217,11 +217,12 @@ RectTransform:
   - {fileID: 2110846093}
   - {fileID: 2143587085}
   - {fileID: 665249994}
-  - {fileID: 1238129069}
   - {fileID: 200520550}
+  - {fileID: 1238129069}
   - {fileID: 1038108467}
   - {fileID: 1117806393}
   - {fileID: 2004383486}
+  - {fileID: 2041831166}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -240,7 +241,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1330573e5bb9ac488133448757e15c8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LINKS
+  m_EditorClassIdentifier: Assembly-CSharp::EnlacesDirectos
+  boton1: {fileID: 665249995}
+  boton2: {fileID: 200520551}
+  boton3: {fileID: 1238129070}
 --- !u!1 &200520549
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +258,7 @@ GameObject:
   - component: {fileID: 200520552}
   - component: {fileID: 200520551}
   m_Layer: 5
-  m_Name: boton3
+  m_Name: boton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,8 +281,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -41}
-  m_SizeDelta: {x: 482.311, y: 136.256}
+  m_AnchoredPosition: {x: 16.004967, y: -34.898003}
+  m_SizeDelta: {x: 833.02, y: 136.256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200520551
 MonoBehaviour:
@@ -325,15 +329,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 38098618}
-        m_TargetAssemblyTypeName: LINKS, Assembly-CSharp
-        m_MethodName: link
+        m_TargetAssemblyTypeName: EnlacesDirectos, Assembly-CSharp
+        m_MethodName: AbrirPagina
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://www.google.com/?hl=es_419
+          m_StringArgument: https://youtube.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &200520552
@@ -631,8 +635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 122}
-  m_SizeDelta: {x: 482.311, y: 136.256}
+  m_AnchoredPosition: {x: 16, y: 131}
+  m_SizeDelta: {x: 833.012, y: 142.053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665249995
 MonoBehaviour:
@@ -679,15 +683,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 38098618}
-        m_TargetAssemblyTypeName: LINKS, Assembly-CSharp
-        m_MethodName: link
+        m_TargetAssemblyTypeName: EnlacesDirectos, Assembly-CSharp
+        m_MethodName: AbrirPagina
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://www.youtube.com/
+          m_StringArgument: https://www.facebook.com/?locale=es_LA
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &665249996
@@ -807,7 +811,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.564, y: -10.088}
+  m_AnchoredPosition: {x: -16.56399, y: 1.7434998}
   m_SizeDelta: {x: -33.128, y: -3.487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827854110
@@ -830,7 +834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Presiona
+  m_text: "Presiona para ir a la p\xE1gina"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -857,7 +861,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 61.1
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -865,7 +869,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 4
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -944,7 +948,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188.30002, y: -204}
+  m_AnchoredPosition: {x: -327.48505, y: -197.89801}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038108468
@@ -1019,7 +1023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188.30002, y: -41}
+  m_AnchoredPosition: {x: -327.48505, y: -34.898003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1117806394
@@ -1073,7 +1077,7 @@ GameObject:
   - component: {fileID: 1238129071}
   - component: {fileID: 1238129070}
   m_Layer: 5
-  m_Name: boton2
+  m_Name: boton3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1096,8 +1100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -204}
-  m_SizeDelta: {x: 482.311, y: 136.256}
+  m_AnchoredPosition: {x: 16.004967, y: -197.89801}
+  m_SizeDelta: {x: 833.02, y: 136.256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1238129070
 MonoBehaviour:
@@ -1144,15 +1148,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 38098618}
-        m_TargetAssemblyTypeName: LINKS, Assembly-CSharp
-        m_MethodName: link
+        m_TargetAssemblyTypeName: EnlacesDirectos, Assembly-CSharp
+        m_MethodName: AbrirPagina
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://desarrolloweb.udgvirtual.udg.mx/
+          m_StringArgument: https://www.tiktok.com/es-419/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1238129071
@@ -1227,7 +1231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.56401, y: -1.7440033}
+  m_AnchoredPosition: {x: -16.56401, y: 1.7435}
   m_SizeDelta: {x: -33.128, y: -3.487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372667246
@@ -1250,7 +1254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Presiona
+  m_text: "Presiona para ir a la p\xE1gina"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1277,7 +1281,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 58.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1443,7 +1447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188.3, y: 122}
+  m_AnchoredPosition: {x: -327.48505, y: 131.002}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004383487
@@ -1518,7 +1522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.564, y: -5.916}
+  m_AnchoredPosition: {x: -16.564, y: 1.7435}
   m_SizeDelta: {x: -33.128, y: -3.487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2011296186
@@ -1541,7 +1545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Presiona
+  m_text: "Presiona para ir a la p\xE1gina"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1568,7 +1572,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 58.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1621,6 +1625,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011296184}
   m_CullTransparentMesh: 1
+--- !u!1 &2041831165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2041831166}
+  - component: {fileID: 2041831168}
+  - component: {fileID: 2041831167}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2041831166
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041831165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 38098617}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -468.46, y: 306.81}
+  m_SizeDelta: {x: 209.081, y: 176.39}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2041831167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041831165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8336600743870487584, guid: 00effde814329034c989b42179622dca, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2041831168
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041831165}
+  m_CullTransparentMesh: 1
 --- !u!1 &2110846092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,7 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5943396, g: 0.44014773, b: 0.44014773, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1730,8 +1809,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 300}
-  m_SizeDelta: {x: 708.909, y: 451.525}
+  m_AnchoredPosition: {x: 118, y: 315}
+  m_SizeDelta: {x: 883.946, y: 192.775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143587086
 MonoBehaviour:
@@ -1753,7 +1832,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Titulo
+  m_text: Bienvenidos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1762,8 +1841,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1780,7 +1859,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 294.75
+  m_fontSize: 162.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
