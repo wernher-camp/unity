@@ -1083,8 +1083,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 35.5287, y: 10.443404}
-  m_Size: {x: 218.742, y: 218.742}
+  m_Offset: {x: 31.580141, y: 10.443419}
+  m_Size: {x: 130.54263, y: 130.54263}
   m_Direction: 0
 --- !u!114 &1048589983
 MonoBehaviour:
@@ -1098,6 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1ab84e33b57fd641ac8a750e371ca3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActivadorBurbujas
+  objetoBurbujas: {fileID: 0}
 --- !u!50 &1048589984
 Rigidbody2D:
   serializedVersion: 5
@@ -1136,6 +1137,8 @@ GameObject:
   - component: {fileID: 1080257162}
   - component: {fileID: 1080257168}
   - component: {fileID: 1080257167}
+  - component: {fileID: 1080257166}
+  - component: {fileID: 1080257165}
   - component: {fileID: 1080257164}
   - component: {fileID: 1080257163}
   - component: {fileID: 1080257169}
@@ -1162,7 +1165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -8, y: 1}
   m_SizeDelta: {x: 576.997, y: 501.591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1080257163
@@ -1223,6 +1226,30 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1080257165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080257161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7861f8fe7068b04ebb957de7cfd7438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &1080257166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080257161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa8dad09457f0a4d9ec45830eba715b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!114 &1080257167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2365,7 +2392,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 11.73938, y: -4.4401665}
+  m_Offset: {x: 11.73938, y: -41.558754}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2375,7 +2402,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1900.8955, y: 239.05316}
+  m_Size: {x: 1900.8955, y: 123.24327}
   m_EdgeRadius: 0
 --- !u!1 &1815776753
 GameObject:
